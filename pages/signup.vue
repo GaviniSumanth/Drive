@@ -46,12 +46,12 @@
           <input
             class="w-full cursor-pointer rounded-md bg-[#4F46E5] py-2 font-bold text-white hover:bg-[#181196]"
             type="submit"
-            value="Login"
+            value="Sign Up"
           />
         </div>
       </div>
       <p class="mt-10 text-sm text-gray-500">
-        Already a member?
+        Already have an account?
         <NuxtLink to="signin" class="font-bold text-[#4F46E5]">
           Sign In</NuxtLink
         >

@@ -49,9 +49,9 @@
         </div>
       </form>
       <p class="mt-10 text-sm text-gray-500">
-        Not a member?
+        Don't have one? Create
         <NuxtLink to="signup" class="font-bold text-[#4F46E5]"
-          >Sign Up</NuxtLink
+          >Account</NuxtLink
         >
       </p>
     </div>

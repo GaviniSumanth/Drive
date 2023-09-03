@@ -39,15 +39,15 @@ useHead({
 
       <div class="mt-6 flex items-center justify-center gap-4">
         <NuxtLink
-          href="signin"
+          href="signup"
           class="transform rounded-md bg-indigo-600/95 px-5 py-3 font-medium text-white transition-colors hover:bg-indigo-700"
           >Get started for free</NuxtLink
         >
         <NuxtLink
-          href="signup"
+          href="signin"
           class="transform rounded-md border border-slate-200 px-5 py-3 font-medium text-slate-900 transition-colors hover:bg-slate-50"
         >
-          Sign in
+          Sign In
         </NuxtLink>
       </div>
     </div>
