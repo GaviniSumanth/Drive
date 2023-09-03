@@ -12,7 +12,7 @@
     "format:write": "npx prettier --write ./"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.6.3",
+    "@commitlint/cli": "^17.7.1",
     "@commitlint/config-conventional": "^17.7.0",
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "@tailwindcss/nesting": "^0.0.0-insiders.565cd3e",
