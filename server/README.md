@@ -1,4 +1,4 @@
-# [Your Project Name] Backend API
+# PrepCloud Backend API
 
 Welcome to the backend API for the PrepCloud project. This API is responsible for user authentication and registration.
 
