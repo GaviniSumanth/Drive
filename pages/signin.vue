@@ -59,6 +59,7 @@
 </template>
 
 <script>
+import API from '~/utils/api'
 export default {
   name: 'Login',
   data() {
@@ -78,13 +79,26 @@ export default {
   methods: {
     validateEmail(value) {
       const re = /\S+@\S+\.\S+/
-      return !!re.test(value)
+      return re.test(value)
     },
     validatePassword(value) {
       return value.length >= 8
     },
-    loginHandler() {
-      alert(`Email: ${this.email} Password: ${this.password}`)
+    async loginHandler() {
+      const { data: response } = await useFetch(API.SIGN_IN, {
+        method: 'POST',
+        headers: {
+          Accept: 'application/json',
+          'Content-Type': 'application/json',
+          'Access-Control-Allow-Origin': '*' // Required for CORS support to work
+        },
+        body: JSON.stringify({
+          email: this.email,
+          password: this.password
+        })
+      })
+      document.cookie = 'token=' + response._rawValue.token + ';'
+      await navigateTo({ path: '/home' })
     }
   }
 }
