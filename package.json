@@ -23,7 +23,7 @@
     "husky": "^8.0.3",
     "lint-staged": "^13.2.2",
     "nuxt": "3.7.3",
-    "postcss": "^8.4.29",
+    "postcss": "^8.4.30",
     "postcss-import": "^15.1.0",
     "prettier": "^2.8.8",
     "prettier-plugin-tailwindcss": "^0.2.8",
