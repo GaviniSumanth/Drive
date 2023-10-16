@@ -21,7 +21,7 @@
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
     "husky": "^8.0.3",
-    "lint-staged": "^13.2.2",
+    "lint-staged": "^15.0.1",
     "nuxt": "3.7.4",
     "postcss": "^8.4.29",
     "postcss-import": "^15.1.0",
